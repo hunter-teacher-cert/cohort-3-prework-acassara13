@@ -24,7 +24,7 @@ public class Method {
 			  return true;
 		}
 	}
-// Question 4 Write a method called ack that takes two ints as parameters and that computes and returns the value of the Ackermann function.
+// Question 8 Write a method called ack that takes two ints as parameters and that computes and returns the value of the Ackermann function.
   public static int ack(int m, int n) {
 		if (m == 0) {
 			return n + 1;
