@@ -9,7 +9,7 @@ public class Loops {
 
 		// Display the square root
 		System.out.println("The approximated square root of " + number + " is: " + sqrt(number));
-    System.out.println("Factorial of 2 (I): "+factorialIterative(2));
+    System.out.println("Factorial of 2 : "+factorialIterative(2));
 	}
 	
 	/** Method squrt approximates the square root of n */
