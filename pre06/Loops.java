@@ -4,14 +4,12 @@ public class Loops {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); 
-
-
 		System.out.print("Enter a number: ");
 		long number = input.nextLong();
 
 		// Display the square root
-		System.out.println(
-			"The approximated square root of " + number + " is: " + sqrt(number));
+		System.out.println("The approximated square root of " + number + " is: " + sqrt(number));
+    System.out.println("Factorial of 2 (I): "+factorialIterative(2));
 	}
 	
 	/** Method squrt approximates the square root of n */
@@ -27,5 +25,25 @@ public class Loops {
 		}
 		lastGuess = nextGuess;
 		return nextGuess = (lastGuess + n / lastGuess) / 2;
+	}
+  public static double power(double x, int n) {
+		if (n == 0) {
+			return 1.0;
+		}
+		else if (n > 0) {
+			return x*power(x, n - 1);
+		}
+		else {
+			return 1.0/x * power(1.0/x, -n - 1); 
+		}
+	}
+  public static int factorialIterative(int n){
+		int result=1,i=1;
+		while(i<=n){
+			result=result*i;
+			i++;
+		}
+		
+		return result;
 	}
 }
