@@ -1,18 +1,8 @@
 public class Array{
 
-/*public static double[] powArray (double a[]){
-    for (int i = 0; i < a.length; i++) {
-         a[i] = Math.pow(a[i], 2.0);
-    }
-    return a;
-}
-public static void main(String[] args) {
-    double[] a = new double[]{2, 4, 6, 8};
-    System.out.println(Arrays.toString(powArray(a)));
-}*/
   public static void main(String[] args) {
         // TODO Auto-generated method stub
-        double a[] = new double[]{2,5,4,6};
+        double a[] = new double[]{2,4,6,8};
          powArray(a,0);
         for(double value:a){
             System.out.println(value);
@@ -26,4 +16,6 @@ public static void main(String[] args) {
             powArray(a, ++index);
         }
     }
+
+    public static void histogram(int b[])
 }
