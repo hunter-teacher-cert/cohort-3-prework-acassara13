@@ -1,0 +1,12 @@
+
+// multiplies all items in the array a
+
+public static int banana(int[] a) {
+    int kiwi = 1;//stores value
+    int i = 0; //counter
+    while (i < a.length) {//traverses through array
+        kiwi = kiwi * a[i];//multiplies each array item by kiwi
+        i++;
+    }
+    return kiwi;
+}

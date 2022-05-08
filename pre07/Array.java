@@ -25,7 +25,7 @@ public class Array{
          counter[element]++;
       }
       return counter;
-  
+      }
     public static int indexOfMax(int[] numbers){
       int index = 0;
       for (int i=1;i<numbers.length;i++){
@@ -36,7 +36,7 @@ public class Array{
       return index;
    }
 //enhanced loop
-   public static int indexOfMaxEL(int[] num]){
+   /*public static int indexOfMaxEL(int[] num){
       int count = 0;
       int i = 0;
       for (int num:nums){
@@ -46,7 +46,7 @@ public class Array{
          i++;
       }
       return count;
-   }  
+   }*/  
   public static boolean[] sieve(int n){
       boolean[] result = new boolean[n];
       for (int i=2;i<n;i++)
@@ -61,6 +61,6 @@ public class Array{
       return result;
    }
       }
-}
+
 
     
