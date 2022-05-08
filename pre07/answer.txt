@@ -22,7 +22,7 @@ public static int grapefruit(int[] a, int grape) {
     return -1;
 }
 
-// transverses through array a searching for apple
+// traverses through array a searching for apple
 public static int pineapple(int[] a, int apple) {
     int pear = 0;// stores the num of apples
     for (int pine: a) {
